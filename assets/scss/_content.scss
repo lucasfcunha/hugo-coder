@@ -61,12 +61,15 @@
     font-size: 1.6rem;
     margin: 0;
   }
+
+  .home-content {
+    flex-direction: column;
+  }
 }
 
-.avatar img{
+.avatar img {
   width: 20rem;
   height: auto;
-  border-radius: 50%;
   @media only screen and (max-width : 768px) {
     width: 10rem;
   }
